@@ -1,2 +1,3 @@
 # art-portfolio
-Some random paces of artwork. 
+Some random pieces of artwork. 
+https://dohorcadrg.github.io/art-portfolio/
