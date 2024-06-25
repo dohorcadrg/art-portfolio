@@ -10,37 +10,11 @@
 	<!-- Add the slick-theme.css if you want default styling -->
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
-	<style type="text/css">
-	html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-		#header-con{
-			background-color: #e68bbe;
-		}
-		#banner-con{
-			background-color: #f4b8da;
-		}
-		#collections-con{
-			background-color: #f9cee7;
-			padding-bottom: 20px;
-		}
-		#highlight-con{
-			background-color: #fde4f2;
-		}
-		#footer-con{
-			background-color: #f9cee7;
-		}
-		@media only screen and (min-width: 760px) {
-			.collectionsitem{
-				
-			}
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="glorypinktheme.css">
 </HEAD>
 <BODY>
 	<!-- Header containing menu -->
-	<DIV id="header-con" class="navbar sticky-top">
+	<DIV id="header-con" class="navbar fixed-top">
 		<H4>Glory's Art Portfolio</H4>
 		<img src="https://placehold.co/50">
 	</DIV>
@@ -62,8 +36,8 @@
 				<H2>Collections</H2>
 			</div>
 			<div class="col-auto">
-				<button type="button" data-bs-target="#collectionsNav" data-bs-slide="prev">Previous</button>
-				<button type="button" data-bs-target="#collectionsNav" data-bs-slide="next">Next</button>
+				<button class="birthdaybuttons btn" type="button" data-bs-target="#collectionsNav" data-bs-slide="prev">Previous</button>
+				<button class="birthdaybuttons btn" type="button" data-bs-target="#collectionsNav" data-bs-slide="next">Next</button>
 			</div>
 		</div>
 		<div id="collectionsNav" class="carousel slide ">
@@ -73,7 +47,7 @@
     					<div class="col">
     						<a href="birthday2024.html">
     						<div class="card">
-    							<img src="images/birthday2024/scoobydoobeedoo.jpg" class="d-block w-100" alt="...">
+    							<img src="images/birthday2024/aprscoobydoobeedoo.jpg" class="d-block w-100" alt="...">
     							<div class="card-body">
     <p class="card-text">Birthday Drawings 2024</p>
   </div>
@@ -136,7 +110,73 @@
 	<!-- Highlights -->
 	<DIV id="highlight-con">
 		<H1>Art Highlights</H1>
-		<div style="height:500px;"></div>
+		<div class="container">
+	<div class="row">
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/thekingofmusickkslider.jpg" style="width: 100%" 
+          	data-bs-toggle="modal" 
+          	data-bs-target="#exampleModal" 
+          	data-bs-modeltitle="The King of Music" 
+          	data-bs-modeldescript="K.K Slider, the king of music on a throne, made with color pencils"
+          	data-bs-picdate="2023">>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/parkbenchlove.jpg"  style="width: 100%" 
+          	data-bs-toggle="modal" 
+          	data-bs-target="#exampleModal"  
+          	data-bs-modeltitle="Park bench love" 
+          	data-bs-modeldescript="A couple on a park bench under cherry blossoms, made with color pencils"
+          	data-bs-picdate="2024">
+      </div></div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/rockruffrainbow.jpg"  style="width: 100%" 
+          	data-bs-toggle="modal" 
+          	data-bs-target="#exampleModal" 
+          	data-bs-modeltitle="Rockruff Rainbow" 
+          	data-bs-modeldescript="Rockruff under a rainbow, made with color pencils"
+          	data-bs-picdate="2024">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          	<img src="images/jesuswalkingonwater.jpg" style="width: 100%" 
+          	data-bs-toggle="modal" 
+          	data-bs-target="#exampleModal" 
+          	data-bs-modeltitle="Jesus Walking On Water" 
+          	data-bs-modeldescript="Jesus walking on water, made with color pencils"
+          	data-bs-picdate="2024">
+        </div>
+      </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Full Size</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      	<div class="container-fluid text-center">
+      	<img src="" style="width: 85%">
+      	<div class="modelimgdescrip"></div>
+      </div>
+      </div>
+      <div class="modal-footer">
+      	<div class="row">
+        <button type="button" class="btn birthdaybuttons" data-bs-dismiss="modal">Close</button></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+		
 	</DIV>
 
 	<!-- Footer -->
@@ -147,6 +187,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!--Slick Carosoul-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script type="text/javascript"></script>
+    <script type="text/javascript" src="glorymodalbehavior.js"></script>
 </BODY>
 </HTML>

@@ -10,33 +10,7 @@
 	<!-- Add the slick-theme.css if you want default styling -->
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
-	<style type="text/css">
-	html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-		#header-con{
-			background-color: #e68bbe;
-		}
-		#banner-con{
-			background-color: #f4b8da;
-		}
-		#collections-con{
-			background-color: #f9cee7;
-			padding-bottom: 20px;
-		}
-		#highlight-con{
-			background-color: #f9cee7;
-		}
-		#footer-con{
-			background-color: #f4b8da;
-		}
-		@media only screen and (min-width: 760px) {
-			.collectionsitem{
-				
-			}
-		}
-	</style>
+  <link rel="stylesheet" type="text/css" href="glorypinktheme.css">
 </HEAD>
 <BODY>
 	<!-- Header containing menu -->
@@ -57,46 +31,131 @@
 
 	<!-- Highlights -->
 	<DIV id="highlight-con">
-
-		<div class="row">
+    <DIV class="container-fluid">
+		<div class="row" id="birthdaysections">
       <div class="col-auto me-auto">
         <H2>Janurary</H2>
       </div>
       <div class="col-auto">
-        <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseJanurary" aria-expanded="false" aria-controls="collapseJanurary">
+        <button class="birthdaybuttons btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJanurary" aria-expanded="false" aria-controls="collapseJanurary">
         Show/Hide
         </button>
       </div>
     </div>
-    <div class="row collapse" id="collapseJanurary">
+    <div class="row collapse show" id="collapseJanurary">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
-          <img src="https://placehold.co/50">
+          <img src="images/birthday2024/jancalicocat.jpg"  style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
           <div class="card-body">
-            <h5>Name</h5>
+            <h5>Cat</h5>
             <p class="card-text">Description</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/janpersona.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
+          <div class="card-body">
+            <h5>Persona</h5>
+            <p class="card-text">Description</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/janpuppybirthday.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
+          <div class="card-body">
+            <h5>Puppy</h5>
+            <p class="card-text">Description</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/janunicorn.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
+          <div class="card-body">
+            <h5>Unicorn</h5>
+            <p class="card-text">Unicorns and rainbows, Yay!</p>
             <p class="card-text"><small class="text-muted">Date</small></p>
           </div>
         </div>
       </div>
     </div>
 
-<div class="row">
+<div class="row" id="birthdaysections">
       <div class="col-auto me-auto">
         <H2>Feburary</H2>
       </div>
       <div class="col-auto">
-        <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeburary" aria-expanded="false" aria-controls="collapseFeburary">
+        <button class="birthdaybuttons btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeburary" aria-expanded="false" aria-controls="collapseFeburary">
         Show/Hide
         </button>
       </div>
     </div>
-    <div class="row collapse" id="collapseFeburary">
+    <div class="row collapse show" id="collapseFeburary">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
-          <img src="https://placehold.co/50">
+          <img src="images/birthday2024/febshark.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
           <div class="card-body">
-            <h5>Name</h5>
+            <h5>Shark</h5>
+            <p class="card-text">Description</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/febroses.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
+          <div class="card-body">
+            <h5>Flowers</h5>
+            <p class="card-text">Description</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/febprincessmario.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
+          <div class="card-body">
+            <h5>Princess Crowns</h5>
             <p class="card-text">Description</p>
             <p class="card-text"><small class="text-muted">Date</small></p>
           </div>
@@ -104,22 +163,42 @@
       </div>
     </div>
 
-<div class="row">
+<div class="row" id="birthdaysections">
       <div class="col-auto me-auto">
         <H2>March</H2>
       </div>
       <div class="col-auto">
-        <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseMarch" aria-expanded="false" aria-controls="collapseMarch">
+        <button class="birthdaybuttons btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMarch" aria-expanded="false" aria-controls="collapseMarch">
         Show/Hide
         </button>
       </div>
     </div>
-    <div class="row collapse" id="collapseMarch">
+    <div class="row collapse show" id="collapseMarch">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
-          <img src="https://placehold.co/50">
+          <img src="images/birthday2024/marchcinamoroll.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
           <div class="card-body">
-            <h5>Name</h5>
+            <h5>Cinamoroll</h5>
+            <p class="card-text">Description</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/marchhellokitty.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
+          <div class="card-body">
+            <h5>Hello Kitty</h5>
             <p class="card-text">Description</p>
             <p class="card-text"><small class="text-muted">Date</small></p>
           </div>
@@ -127,22 +206,132 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row" id="birthdaysections">
       <div class="col-auto me-auto">
         <H2>April</H2>
       </div>
       <div class="col-auto">
-        <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseApril" aria-expanded="false" aria-controls="collapseApril">
+        <button class="birthdaybuttons btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseApril" aria-expanded="false" aria-controls="collapseApril">
         Show/Hide
         </button>
       </div>
     </div>
-    <div class="row collapse" id="collapseApril">
+    <div class="row collapse show" id="collapseApril">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
-          <img src="https://placehold.co/50">
+          <img src="images/birthday2024/aprkuromi.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
           <div class="card-body">
-            <h5>Name</h5>
+            <h5>Kuromi</h5>
+            <p class="card-text">Description</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/apraloanvulpix.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
+          <div class="card-body">
+            <h5>Vulpix</h5>
+            <p class="card-text">Description</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/aprgirrafebirthday.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
+          <div class="card-body">
+            <h5>Girrafe</h5>
+            <p class="card-text">Description</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/aprscoobydoobeedoo.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
+          <div class="card-body">
+            <h5>Scooby</h5>
+            <p class="card-text">Description</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/aprpandacake.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
+          <div class="card-body">
+            <h5>Panda</h5>
+            <p class="card-text">Description</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/aprbunny.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
+          <div class="card-body">
+            <h5>Bunny</h5>
+            <p class="card-text">Description</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/aprcutelovecouple.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
+          <div class="card-body">
+            <h5>Couple Envolope</h5>
+            <p class="card-text">Description</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/aprblackpanthercard.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
+          <div class="card-body">
+            <h5>Panther</h5>
             <p class="card-text">Description</p>
             <p class="card-text"><small class="text-muted">Date</small></p>
           </div>
@@ -151,12 +340,12 @@
     </div>
 
     <!--May-->
-    <div class="row">
+    <div class="row" id="birthdaysections">
       <div class="col-auto me-auto">
         <H2>May</H2>
       </div>
       <div class="col-auto">
-        <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseMay" aria-expanded="false" aria-controls="collapseMay">
+        <button class="birthdaybuttons btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMay" aria-expanded="false" aria-controls="collapseMay">
         Show/Hide
         </button>
       </div>
@@ -164,7 +353,12 @@
     <div class="row collapse show" id="collapseMay">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
-          <img src="images/birthday2024/tropicalflowers.jpg">
+          <img src="images/birthday2024/maytropicalflowers.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
           <div class="card-body">
             <h5>Tropical Flowers</h5>
             <p class="card-text">Red hibicus</p>
@@ -174,7 +368,12 @@
       </div>
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
-          <img src="images/birthday2024/cutepuppiesonacake.jpg">
+          <img src="images/birthday2024/maycutepuppiesonacake.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
           <div class="card-body">
             <h5>Cute Pupies</h5>
             <p class="card-text">A cute puppy couple</p>
@@ -184,7 +383,12 @@
       </div>
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
-          <img src="images/birthday2024/trolls.jpg">
+          <img src="images/birthday2024/maytrolls.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
           <div class="card-body">
             <h5>Trolls</h5>
             <p class="card-text">Poppy and Branch!</p>
@@ -194,7 +398,12 @@
       </div>
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
-          <img src="images/birthday2024/puppycupcake.jpg">
+          <img src="images/birthday2024/maypuppycupcake.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
           <div class="card-body">
             <h5>Puppy Birthday</h5>
             <p class="card-text">A cute puppy an a cupcake</p>
@@ -204,7 +413,12 @@
       </div>
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
-          <img src="images/birthday2024/onlybirthdaycake.jpg">
+          <img src="images/birthday2024/mayonlybirthdaycake.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
           <div class="card-body">
             <h5>Birthday Cake</h5>
             <p class="card-text">It's just a birthday cake</p>
@@ -214,7 +428,12 @@
       </div>
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
-          <img src="images/birthday2024/dinosaur.jpg">
+          <img src="images/birthday2024/maydinosaur.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
           <div class="card-body">
             <h5>Dinosaur</h5>
             <p class="card-text">Dino opening a present</p>
@@ -224,7 +443,12 @@
       </div>
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
-          <img src="images/birthday2024/pikachueating.jpg">
+          <img src="images/birthday2024/maypikachueating.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
           <div class="card-body">
             <h5>Pikachu</h5>
             <p class="card-text">It's pikachu!</p>
@@ -234,7 +458,27 @@
       </div>
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
-          <img src="images/birthday2024/pandainabox.jpg">
+          <img src="images/birthday2024/maykoalabox.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
+          <div class="card-body">
+            <h5>Koala</h5>
+            <p class="card-text">A koala holding a birthday box</p>
+            <p class="card-text"><small class="text-muted">May 2024</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/maypandainabox.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
           <div class="card-body">
             <h5>Panda</h5>
             <p class="card-text">Panda in a gift box</p>
@@ -245,20 +489,78 @@
     </div>
 
 
-    <div class="row">
+    <div class="row" id="birthdaysections">
       <div class="col-auto me-auto">
         <H2>June</H2>
       </div>
       <div class="col-auto">
-        <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseJune" aria-expanded="false" aria-controls="collapseJune">
+        <button class="birthdaybuttons btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJune" aria-expanded="false" aria-controls="collapseJune">
         Show/Hide
         </button>
       </div>
     </div>
-    <div class="row collapse" id="collapseJune">
+    <div class="row collapse show" id="collapseJune">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
-          <img src="https://placehold.co/50">
+          <img src="images/birthday2024/junemermaidgenie.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
+          <div class="card-body">
+            <h5>Mermiad Genie</h5>
+            <p class="card-text">Description</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/junefoxinabox.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
+          <div class="card-body">
+            <h5>Fox</h5>
+            <p class="card-text">A fox in a box</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/placeholder.jpg" style="width: 100%" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal" 
+            data-bs-modeltitle="Title here" 
+            data-bs-modeldescript="Description here"
+            data-bs-picdate="2024">
+          <div class="card-body">
+            <h5>Barbie</h5>
+            <p class="card-text">Description</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="birthdaysections">
+      <div class="col-auto me-auto">
+        <H2>July</H2>
+      </div>
+      <div class="col-auto">
+        <button class="birthdaybuttons btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJuly" aria-expanded="false" aria-controls="collapseJuly">
+        Show/Hide
+        </button>
+      </div>
+    </div>
+    <div class="row collapse" id="collapseJuly">
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/placeholder.jpg">
           <div class="card-body">
             <h5>Name</h5>
             <p class="card-text">Description</p>
@@ -268,7 +570,7 @@
       </div>
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
-          <img src="https://placehold.co/50">
+          <img src="images/birthday2024/placeholder.jpg">
           <div class="card-body">
             <h5>Name</h5>
             <p class="card-text">Description</p>
@@ -278,7 +580,7 @@
       </div>
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
-          <img src="https://placehold.co/50">
+          <img src="images/birthday2024/placeholder.jpg">
           <div class="card-body">
             <h5>Name</h5>
             <p class="card-text">Description</p>
@@ -288,20 +590,20 @@
       </div>
     </div>
 
-    <div class="row">
+  <div class="row" id="birthdaysections">
       <div class="col-auto me-auto">
-        <H2>July</H2>
+        <H2>August</H2>
       </div>
       <div class="col-auto">
-        <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseJuly" aria-expanded="false" aria-controls="collapseJuly">
+        <button class="birthdaybuttons btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAugust" aria-expanded="false" aria-controls="collapseAugust">
         Show/Hide
         </button>
       </div>
     </div>
-    <div class="row collapse" id="collapseJuly">
+    <div class="row collapse" id="collapseAugust">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
-          <img src="https://placehold.co/50">
+          <img src="images/birthday2024/placeholder.jpg">
           <div class="card-body">
             <h5>Name</h5>
             <p class="card-text">Description</p>
@@ -311,7 +613,7 @@
       </div>
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
-          <img src="https://placehold.co/50">
+          <img src="images/birthday2024/placeholder.jpg">
           <div class="card-body">
             <h5>Name</h5>
             <p class="card-text">Description</p>
@@ -321,7 +623,7 @@
       </div>
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
-          <img src="https://placehold.co/50">
+          <img src="images/birthday2024/placeholder.jpg">
           <div class="card-body">
             <h5>Name</h5>
             <p class="card-text">Description</p>
@@ -330,6 +632,72 @@
         </div>
       </div>
     </div>
+
+<div class="row" id="birthdaysections">
+      <div class="col-auto me-auto">
+        <H2>September</H2>
+      </div>
+      <div class="col-auto">
+        <button class="birthdaybuttons btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeptember" aria-expanded="false" aria-controls="collapseSeptember">
+        Show/Hide
+        </button>
+      </div>
+    </div>
+    <div class="row collapse" id="collapseSeptember">
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/placeholder.jpg">
+          <div class="card-body">
+            <h5>Name</h5>
+            <p class="card-text">Description</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/placeholder.jpg" >
+          <div class="card-body">
+            <h5>Name</h5>
+            <p class="card-text">Description</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="margin: 5px;">
+          <img src="images/birthday2024/placeholder.jpg">
+          <div class="card-body">
+            <h5>Name</h5>
+            <p class="card-text">Description</p>
+            <p class="card-text"><small class="text-muted">Date</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Full Size</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid text-center">
+        <img src="" style="width: 100%" >
+        <div class="modelimgdescrip"></div>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <div class="row">
+        <button type="button" class="btn birthdaybuttons" data-bs-dismiss="modal">Close</button></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</DIV>
 	</DIV>
 
 	<!-- Footer -->
@@ -340,6 +708,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!--Slick Carosoul-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script type="text/javascript"></script>
+    <script type="text/javascript" src="glorymodalbehavior.js"></script>
 </BODY>
 </HTML>
