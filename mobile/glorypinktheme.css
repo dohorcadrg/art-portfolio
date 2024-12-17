@@ -19,6 +19,9 @@ html, body {
 			border-bottom:5px solid #f9cee7;
 			background-color:#f4b8da;
 		}
+		#collections2-con{
+			background-color:#f9cee7;
+		}
     .birthdaybuttons{
       background: #dc228b;
       border: 1px solid #fde4f2;
@@ -35,3 +38,4 @@ html, body {
 #birthdaysections{
 	border-top: 1px solid #f9cee7;
 }
+
