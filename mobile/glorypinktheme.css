@@ -7,9 +7,11 @@ html, body {
 		}
 		#banner-con{
 			background-color:#f9cee7;
+			color: #e68bbe;
 		}
 		#highlight-con{
 			background-color:#fde4f2;
+			color: #e68bbe;
 		}
 		#footer-con{
 		background-color:#f9cee7;

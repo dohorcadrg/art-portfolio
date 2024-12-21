@@ -8,16 +8,15 @@
 	<!-- Slick Carsoul-->
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<!-- Add the slick-theme.css if you want default styling -->
+  <script src="https://kit.fontawesome.com/dfd469d1c6.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
   <link rel="stylesheet" type="text/css" href="glorypinktheme.css">
+  <link rel="stylesheet" type="text/css" href="carol.css"/>
 </HEAD>
 <BODY>
 	<!-- Header containing menu -->
-	<DIV id="header-con" class="navbar fixed-top">
-		<H4>Glory's Art Portfolio</H4>
-		<img src="https://placehold.co/50">
-	</DIV>
+  <special-header></special-header>
 
 	<!-- Decorative Banner -->
 	<DIV id="banner-con">
@@ -32,6 +31,28 @@
 	<!-- Highlights -->
 	<DIV id="highlight-con">
     <DIV class="container-fluid">
+
+    <div class="row" id="birthdaysections">
+      <div class="col-auto me-auto">
+        <H1>Highlights</H1>
+      </div>
+      <div class="col-auto">
+        <button class="birthdaybuttons btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHighlights" aria-expanded="false" aria-controls="collapseHighlights">
+        Show/Hide
+        </button>
+      </div>
+    </div>
+    <div class="row collapse show" id="collapseHighlights">
+    <div class="birthdaycarol">
+      <img src="images/birthday2024/aprscoobydoobeedoo.jpg" style="margin: 5px; aspect-ratio: 1 / 1;">
+      <img src="images/birthday2024/aprgirrafebirthday.jpg"style="margin: 5px; aspect-ratio: 1 / 1;">
+      <img src="images/birthday2024/maytrolls.jpg"style="margin: 5px; aspect-ratio: 1 / 1;">
+      <img src="images/birthday2024/junemermaidgenie.jpg"style="margin: 5px; aspect-ratio: 1 / 1;">
+      <img src="images/birthday2024/septbeagle.jpg"style="margin: 5px; aspect-ratio: 1 / 1;">
+      <img src="images/birthday2024/octpoodle.jpg"style="margin: 5px;">
+    </div>
+    </div>
+
 		<div class="row" id="birthdaysections">
       <div class="col-auto me-auto">
         <H2>January</H2>
@@ -42,7 +63,7 @@
         </button>
       </div>
     </div>
-    <div class="row collapse show" id="collapseJanurary">
+    <div class="row collapse" id="collapseJanurary">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
           <img src="images/birthday2024/jancalicocat.jpg"  style="width: 100%" 
@@ -95,7 +116,7 @@
         </button>
       </div>
     </div>
-    <div class="row collapse show" id="collapseFeburary">
+    <div class="row collapse" id="collapseFeburary">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
           <img src="images/birthday2024/febshark.jpg" style="width: 100%" 
@@ -138,7 +159,7 @@
         </button>
       </div>
     </div>
-    <div class="row collapse show" id="collapseMarch">
+    <div class="row collapse" id="collapseMarch">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
           <img src="images/birthday2024/marchcinamoroll.jpg" style="width: 100%" 
@@ -171,7 +192,7 @@
         </button>
       </div>
     </div>
-    <div class="row collapse show" id="collapseApril">
+    <div class="row collapse" id="collapseApril">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
           <img src="images/birthday2024/aprkuromi.jpg" style="width: 100%" 
@@ -265,7 +286,7 @@
         </button>
       </div>
     </div>
-    <div class="row collapse show" id="collapseMay">
+    <div class="row collapse" id="collapseMay">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
           <img src="images/birthday2024/maytropicalflowers.jpg" style="width: 100%" 
@@ -369,7 +390,7 @@
         </button>
       </div>
     </div>
-    <div class="row collapse show" id="collapseJune">
+    <div class="row collapse" id="collapseJune">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
           <img src="images/birthday2024/junemermaidgenie.jpg" style="width: 100%" 
@@ -412,7 +433,7 @@
         </button>
       </div>
     </div>
-    <div class="row collapse show" id="collapseJuly">
+    <div class="row collapse" id="collapseJuly">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
           <img src="images/birthday2024/cake.jpg"
@@ -445,7 +466,7 @@
         </button>
       </div>
     </div>
-    <div class="row collapse show" id="collapseAugust">
+    <div class="row collapse" id="collapseAugust">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
           <img src="images/birthday2024/augmonster.jpg"
@@ -478,7 +499,7 @@
         </button>
       </div>
     </div>
-    <div class="row collapse show" id="collapseSeptember">
+    <div class="row collapse" id="collapseSeptember">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
           <img src="images/birthday2024/septbeagle.jpg" 
@@ -511,7 +532,7 @@
         </button>
       </div>
     </div>
-<div class="row collapse show" id="collapseOctober">
+<div class="row collapse" id="collapseOctober">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
           <img src="images/birthday2024/octpoodle.jpg" 
@@ -594,7 +615,7 @@
         </button>
       </div>
     </div>
-<div class="row collapse show" id="collapseNovember">
+<div class="row collapse" id="collapseNovember">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
           <img src="images/birthday2024/novlion.jpg" 
@@ -648,7 +669,7 @@
         </button>
       </div>
     </div>
-<div class="row collapse show" id="collapseDecember">
+<div class="row collapse" id="collapseDecember">
       <div class="col-md-3">
         <div class="card" style="margin: 5px;">
           <img src="images/birthday2024/decpika.jpg" 
@@ -709,7 +730,8 @@
 	</DIV>
 
 	<!-- Footer -->
-	<DIV id="footer-con">Color pallete from <a href="https://www.color-hex.com/color-palette/47182">Link</a></DIV>
+	<special-footer></special-footer>
+
 	<!--Bootstrap And Popper-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!--J Query-->
@@ -717,5 +739,7 @@
     <!--Slick Carosoul-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="glorymodalbehavior.js"></script>
+    <script type="text/javascript" src="pete.js"></script>
+    <script type="text/javascript" src="webcomponents.js"></script>
 </BODY>
 </HTML>
